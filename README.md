@@ -1,2 +1,2 @@
 # log-parser-ruby
-Log parser for Linux systems
+Log parser for ssh logs
