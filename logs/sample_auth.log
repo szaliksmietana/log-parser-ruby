@@ -1,0 +1,31 @@
+Apr  9 12:36:12 server-name sshd[12346]: Failed password for invalid user admin from 203.0.113.5 port 51324 ssh2
+Apr  9 12:36:14 server-name sshd[12346]: Connection closed by authenticating user admin 203.0.113.5 port 51324 [preauth]
+Apr  9 12:34:56 server-name sshd[12345]: Accepted password for user1 from 192.168.1.100 port 53422 ssh2
+Apr  9 12:34:56 server-name sshd[12345]: pam_unix(sshd:session): session opened for user user1 by (uid=0)
+Apr  9 12:35:01 server-name sshd[12345]: pam_unix(sshd:session): session closed for user user1
+Apr  9 11:05:22 server-name sshd[10001]: Failed password for invalid user test from 203.0.113.5 port 51200 ssh2
+Apr  9 11:05:24 server-name sshd[10001]: Connection closed by authenticating user test 203.0.113.5 port 51200 [preauth]
+
+Apr  9 11:10:45 server-name sshd[10045]: Accepted password for john from 192.168.1.105 port 50912 ssh2
+Apr  9 11:10:45 server-name sshd[10045]: pam_unix(sshd:session): session opened for user john by (uid=0)
+
+Apr  9 11:12:01 server-name sshd[10046]: Failed password for root from 185.22.58.14 port 60022 ssh2
+Apr  9 11:12:03 server-name sshd[10046]: Failed password for root from 185.22.58.14 port 60022 ssh2
+Apr  9 11:12:05 server-name sshd[10046]: Failed password for root from 185.22.58.14 port 60022 ssh2
+Apr  9 11:12:05 server-name sshd[10046]: Received disconnect from 185.22.58.14 port 60022:11: Bye Bye [preauth]
+Apr  9 11:12:05 server-name sshd[10046]: Disconnected from authenticating user root 185.22.58.14 port 60022 [preauth]
+
+Apr  9 11:20:10 server-name sshd[10090]: Accepted publickey for deploy from 198.51.100.77 port 52000 ssh2: RSA SHA256:AbCdEf123...
+Apr  9 11:20:10 server-name sshd[10090]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+
+Apr  9 11:22:33 server-name sshd[10101]: Failed password for invalid user admin from 102.54.32.1 port 54433 ssh2
+Apr  9 11:22:35 server-name sshd[10101]: Failed password for invalid user admin from 102.54.32.1 port 54433 ssh2
+Apr  9 11:22:36 server-name sshd[10101]: Connection closed by invalid user admin 102.54.32.1 port 54433 [preauth]
+
+Apr  9 11:30:27 server-name sshd[10122]: Accepted password for alice from 10.0.0.55 port 51312 ssh2
+Apr  9 11:30:27 server-name sshd[10122]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Apr  9 11:35:02 server-name sshd[10122]: pam_unix(sshd:session): session closed for user alice
+
+Apr  9 11:40:50 server-name sshd[10145]: Accepted password for john from 192.168.1.105 port 50919 ssh2
+Apr  9 11:40:50 server-name sshd[10145]: pam_unix(sshd:session): session opened for user john by (uid=0)
+Apr  9 11:59:59 server-name sshd[10145]: pam_unix(sshd:session): session closed for user john
